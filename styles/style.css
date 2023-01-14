@@ -72,3 +72,57 @@
     width: 100%;
     height: 590px;
 }
+
+/* main area styles */
+.main-area {
+    width: 100%;
+}
+
+/* team section styles */
+.team-area {
+    margin-top: 85px;
+}
+.team-container {
+    width: 96%;
+    max-width: 1040px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+/* team images */
+.team-image-area {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 15px;
+    justify-content: space-between;
+}
+.team-image {
+    height: auto;
+}
+/* team text */
+.team-text-area {
+    width: 500px;
+}
+.team-tx-title {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    margin-bottom: 24px;
+}
+.black-color {
+    font-weight: 700;    
+    color: #131313;    
+}
+.primary-color {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.team-tx-des {    
+    color: #727272;
+    margin-bottom: 32px;
+}

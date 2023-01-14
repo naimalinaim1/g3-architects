@@ -36,5 +36,38 @@
     .banner-image {
         height: 370px;
     }
+    
+    /* team section styles */
+    .team-area {
+        margin-top: 65px;
+    }
+    .team-container {
+        flex-direction: column;
+    }
+
+    /* team images */
+    .team-image-area {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-thumbnail {
+        text-align: center;
+        margin-top: 20px;
+    }
+    /* team text */
+    .team-text-area {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .team-tx-title {
+        font-size: 45px;
+        text-align: center;
+    }
+    .team-tx-des {
+        text-align: center;
+    }
+    .team-text-area .primary-btn {
+        margin: auto;
+    }
 
 }
