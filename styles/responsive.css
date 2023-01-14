@@ -18,5 +18,23 @@
         text-align: center;
         margin-bottom: 10px;
     }
+    
+    /* banner area styles */
+    .banner-text {
+        width: 98%;
+        margin: 80px auto 0;
+    }
+    .banner-title {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    /* banner thumbnail styles */
+    .banner-thumbnail {
+        width: 100%;
+    }
+    .banner-image {
+        height: 370px;
+    }
 
 }
