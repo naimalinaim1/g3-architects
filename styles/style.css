@@ -329,3 +329,19 @@
 .sponsor-image:hover {
     filter: grayscale(0%);
 }
+
+/* footer area styles */
+.footer-area {
+    margin: 130px 0 100px;
+}
+.inner-footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.copyright {
+    text-align: center;
+    padding: 35px 0;
+    font-size: 20px;
+    line-height: 23px;
+    color: #424242;
+}

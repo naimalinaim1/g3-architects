@@ -160,5 +160,16 @@
         width: 180px;
         height: 65px;
     }
+    /* footer area styles */
+    .footer-area {
+        margin: 100px 0 80px;
+    }
+    .copyright {
+        padding: 25px 0;
+    }
+    .copyright span {
+        display: block;
+        margin-top: 10px;
+    }
 
 }
