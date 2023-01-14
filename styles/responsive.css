@@ -119,6 +119,10 @@
     }
     .info-title {
         font-size: 35px;
+        text-align: center;
+    }
+    .info-des {
+        text-align: center;
     }
 
     /* .testimonial items styles */
@@ -137,6 +141,24 @@
     .test-des {
         font-weight: 600;
         font-size: 16px;
+    }
+    
+    /* sponsor area styles */
+    .sponsor-area {
+        margin-top: 100px;
+    }
+    .sponsor-title {
+        font-size: 40px;
+    }
+
+    /* sponsor images styles */
+    .sponsor-images-area {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .sponsor-image {
+        width: 180px;
+        height: 65px;
     }
 
 }

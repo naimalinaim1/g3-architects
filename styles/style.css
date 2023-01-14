@@ -289,3 +289,43 @@
     line-height: 23px;
     color: #727272;
 }
+
+/* sponsor area styles */
+.sponsor-area {
+    width: 100%;
+    margin-top: 150px;
+}
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.sponsor-des {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    max-width: 542px;
+    margin: auto;
+}
+
+/* sponsor images styles */
+.sponsor-images-area {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponsor-image {
+    display: block;
+    width: 155px;
+    height: 45px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.sponsor-image:hover {
+    filter: grayscale(0%);
+}
