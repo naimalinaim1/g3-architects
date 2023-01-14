@@ -113,6 +113,30 @@
         font-size: 15px;
     }
 
+    /* login area styles */
+    .login-area {
+        margin-top: 90px;
+    }
+    .login-title {
+        text-align: center;
+
+    }
+    .login-des {
+        text-align: center;
+    }
+    .login-des span {
+        font-weight: 700;
+    }
+    .login {
+        width: 90%;
+    }
+    .login .input {
+        width: 90%;
+    }
+    .login input[type="submit"] {
+        width: 100%;
+    }
+
     /* testimonial area styles */
     .testimonial-area {
         margin-top: 90px;
