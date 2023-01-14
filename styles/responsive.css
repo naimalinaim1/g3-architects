@@ -1,0 +1,22 @@
+/* responsive web layout */
+/* mobile layout views */
+@media screen and (max-width: 576px) {
+    
+    /* top header styles */
+    .top-header {
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    /* nav styles */
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+}

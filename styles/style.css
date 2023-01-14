@@ -1,0 +1,36 @@
+/* header area styles */
+.header-area {
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 0 45px;
+}
+
+/* top header styles */
+.top-header {
+    width: 98%;
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+.logo {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;    
+    color: #131313;
+}
+
+/* nav styles */
+.nav {
+    display: flex;
+    gap: 75px;
+    list-style: none;
+}
+.nav-item a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+}
