@@ -17,7 +17,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
 }
 .logo {
     font-weight: 700;
@@ -89,7 +88,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid black;
 }
 
 /* team images */
@@ -125,4 +123,93 @@
 .team-tx-des {    
     color: #727272;
     margin-bottom: 32px;
+}
+
+/* feature area styles */
+.feature-area {
+    width: 100%;
+    margin-top: 130px;
+}
+.inner-feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* feature text styles */
+.feature-text-area {
+    width: 525px;
+}
+.feature-tx-title {
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding: 0 21px;
+    border-left: 5px solid var(--primary-color);
+    margin-bottom: 24px;
+}
+.feature-tx-des {
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;   
+    margin-bottom: 30px; 
+}
+.feature-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+.feature-des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* feature image styles */
+.feature-image-area {
+    width: 610px;
+    height: 950px;
+    position: relative;
+}
+.feature-thumbnail {
+    width: 560px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.feature-image {
+    width: 100%;
+    height: 96%;
+}
+.button-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.feature-btn {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    padding: 20px 0;
+    background: var(--primary-color);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.feature-btn .experience {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
 }
